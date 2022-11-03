@@ -50,7 +50,7 @@ if( isset($_POST['submit'])){
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
 </head>
 <body>
-ppopoapospaops  <form class="user" action="login.php" method="POST">
+<form class="user" action="login.php" method="POST">
   <div class="cont">
     <div class="form sign-in">
       <h2>Sign In</h2>
