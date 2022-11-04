@@ -8,5 +8,6 @@
 </head>
 <body>
     <p>ini Dashboard</p>
+    <button><a href="login.php">LOG OUT</a></button>
 </body>
 </html>
