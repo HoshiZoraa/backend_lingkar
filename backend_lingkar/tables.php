@@ -459,11 +459,11 @@ if (isset($_POST['add-user'])) {
                       <thead>
                         <tr>
                           <th><h6>ID</h6></th>
-                          <th><h6>   Nama</h6></th>
+                          <th><h6>Nama</h6></th>
                           <th><h6>Email</h6></th>
                           <th><h6>No HP</h6></th>
                           <th><h6>Alamat</h6></th>
-                          <th><h6>pp</h6></th>
+                          <th><h6>Action</h6></th>
                         </tr>
                         <!-- end table row-->
                       </thead>
