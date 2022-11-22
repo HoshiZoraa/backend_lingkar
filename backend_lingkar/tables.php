@@ -450,7 +450,7 @@ require ("config.php");
                           <th><h6>Email</h6></th>
                           <th><h6>No HP</h6></th>
                           <th><h6>Alamat</h6></th>
-                          <th><h6>Action</h6></th>
+                          <th><h6>pp</h6></th>
                         </tr>
                         <!-- end table row-->
                       </thead>
@@ -476,12 +476,9 @@ require ("config.php");
                                             <td><?php echo $nohp; ?></td>
                                             <td><?php echo $alamat; ?></td>
                                             <td>
-                            <div class="action">
-                              <button class="text-danger">
-                                <i class="lni lni-trash-can"></i>
-                              </button>
-                            </div>
-                          </td>
+                           <button  data-modal-target="#modal-edit<?= $row['id'] ?>">Edit</button>
+                            <button  data-modal-target="#modal-delete<?= $row['id'] ?>">Delete</button>
+                            </td>
                                         </tr>
                                         <?php
                                         
@@ -510,6 +507,7 @@ require ("config.php");
         <!-- end container -->
       </section>
       <!-- ========== table components end ========== -->
+
 
       
       <!-- ========== footer end =========== -->
